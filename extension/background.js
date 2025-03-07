@@ -2,8 +2,9 @@ async function DuplicateTabs() {
 	const tabs = await browser.tabs.query({ highlighted: true, currentWindow: true });
 	tabs.sort((a, b) => b.index - a.index);
 	
+	// We need to run the following  synchronously so that the new tabs can be correctly placed after the original tabs
 	for (const tab of tabs) {
-		// We need to run the following  synchronously so that the new tabs can be correctly placed after the original tabs
+		// TODO: Add an option to not replicate the history, create an new independent tab for same location
 		const newTab = await browser.tabs.duplicate(tab.id);
 		// Pin/Unpin as required
 		await browser.tabs.update(newTab.id, { pinned: tab.pinned });
@@ -128,33 +129,33 @@ browser.commands.onCommand.addListener((command) => {
 	if (command === "duplicate-tab") {
 		DuplicateTabs();
 	}
-});
+// });
 
-browser.commands.onCommand.addListener((command) => {
+// browser.commands.onCommand.addListener((command) => {
 	if (command === "toggle-pin") {
 		TogglePins();
 	}
-});
+// });
 
-browser.commands.onCommand.addListener((command) => {
+// browser.commands.onCommand.addListener((command) => {
 	if (command === "move-left") {
 		MoveTabsLeft();
 	}
-});
+// });
 
-browser.commands.onCommand.addListener((command) => {
+// browser.commands.onCommand.addListener((command) => {
 	if (command === "move-right") {
 		MoveTabsRight();
 	}
-});
+// });
 
-browser.commands.onCommand.addListener((command) => {
+// browser.commands.onCommand.addListener((command) => {
 	if (command === "move-start") {
 		MoveTabsToStart();
 	}
-});
+// });
 
-browser.commands.onCommand.addListener((command) => {
+// browser.commands.onCommand.addListener((command) => {
 	if (command === "move-end") {
 		MoveTabsToEnd();
 	}
