@@ -1,5 +1,7 @@
 # FirefoxTabControlShortcutExtension
 
+## Description
+
 This is firefox extension (though it might work in other browsers too) to provide keyboard shortcuts for some common tab management actions.
 
 **Supported Shortcuts (keymaps are customizable)**
