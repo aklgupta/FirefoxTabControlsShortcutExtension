@@ -129,33 +129,18 @@ browser.commands.onCommand.addListener((command) => {
 	if (command === "duplicate-tab") {
 		DuplicateTabs();
 	}
-// });
-
-// browser.commands.onCommand.addListener((command) => {
 	if (command === "toggle-pin") {
 		TogglePins();
 	}
-// });
-
-// browser.commands.onCommand.addListener((command) => {
 	if (command === "move-left") {
 		MoveTabsLeft();
 	}
-// });
-
-// browser.commands.onCommand.addListener((command) => {
 	if (command === "move-right") {
 		MoveTabsRight();
 	}
-// });
-
-// browser.commands.onCommand.addListener((command) => {
 	if (command === "move-start") {
 		MoveTabsToStart();
 	}
-// });
-
-// browser.commands.onCommand.addListener((command) => {
 	if (command === "move-end") {
 		MoveTabsToEnd();
 	}
