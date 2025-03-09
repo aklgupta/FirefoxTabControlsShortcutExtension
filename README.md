@@ -1,8 +1,8 @@
 # FirefoxTabControlShortcutExtension
 
-This is firefox extension (though it might work in other browsers too) to provide keyboard shortcuts for some common tab management actions.
+This is a Firefox extension (though it might work in other browsers too) that provides keyboard shortcuts for some common tab management actions.
 
-**Supported Shortcuts (keymaps are customizable)**
+**Supported Shortcuts**
 - Moving Tab(s) Left/Right
 - Moving Tab(s) to the Start/End
 - Pinning/Unpinning Tab(s)
@@ -12,8 +12,8 @@ This is firefox extension (though it might work in other browsers too) to provid
 *TODO*
 
 ## Configuration
-- Go to `about:addons` in firefox
-- Open the seetings menu (Cog Icon)
+- Go to `about:addons` in Firefox
+- Open the settings menu (Cog Icon)
 - Select `Manage Extension Shortcuts`
 - Change/remove the shortcuts as required
 
