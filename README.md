@@ -1,6 +1,6 @@
 # FirefoxTabControlShortcutExtension
 
-**Get it here**: https://addons.mozilla.org/en-US/firefox/addon/tabs-controls-shortcuts/
+![get-the-addon-178x60px dad84b42](https://github.com/user-attachments/assets/1b94227e-dc68-408e-930c-6f7ed5fe59e9)
 
 This Firefox extension (though it might work in other browsers too) that provides keyboard shortcuts for some common tab management actions.
 
