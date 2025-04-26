@@ -1,10 +1,11 @@
 # FirefoxTabControlShortcutExtension
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/tabs-controls-shortcuts/">
-  <img src="https://private-user-images.githubusercontent.com/16941024/435460025-1b94227e-dc68-408e-930c-6f7ed5fe59e9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxNDc0MjQsIm5iZiI6MTc0NTE0NzEyNCwicGF0aCI6Ii8xNjk0MTAyNC80MzU0NjAwMjUtMWI5NDIyN2UtZGM2OC00MDhlLTkzMGMtNmY3ZWQ1ZmU1OWU5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDIwVDExMDUyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTExZDY1ZDJhZDFkMGZjNjdjYTE0MmRjMzY4NjU1MGRhZWY2NDJmYjlmYzNjMmNhZDI3NjA1YmY2NjdmZmM5ZDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.tvap7oICOnvrZ8uMqzvRbGN1dPOfNeYh9K_IM5XKHJg" />
-</a>
+[![Get Tabs Controls Shortcuts Mozilla extension](https://github.com/user-attachments/assets/9d2a3301-7fd0-4e06-9caa-6b8437a847e3)](https://addons.mozilla.org/en-US/firefox/addon/tabs-controls-shortcuts/)
 
-This Firefox extension (though it might work in other browsers too) that provides keyboard shortcuts for some common tab management actions.
+[![Tabs Controls Shortcuts Rating](https://img.shields.io/amo/stars/tabs-controls-shortcuts?label=Firefox%20Rating&style=flat&logo=firefox)](https://addons.mozilla.org/en-US/firefox/addon/tabs-controls-shortcuts/)
+[![Tabs Controls Shortcuts Downloads](https://img.shields.io/amo/users/tabs-controls-shortcuts?label=Firefox%20Users&style=flat&logo=firefox)](https://addons.mozilla.org/en-US/firefox/addon/tabs-controls-shortcuts/)
+
+This Firefox extension (though it might work in other browsers too) provides keyboard shortcuts for some common tab management actions.
 
 **Supported Shortcuts**
 - Move Tab(s) Left/Right
